@@ -1,0 +1,150 @@
+* 
+{
+    margin: 0;                            /*#F4D529, E3E3E3, 575757, 949494*/
+    padding: 0;
+}
+body 
+{
+    font-family: sans-serif;
+}
+
+/* -----Navbar------ */
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar 
+{
+    background-image: linear-gradient(to right, #252A37,  #252A37); 
+    padding: 0 !important;
+}
+.navbar-brand img 
+{
+    height: 50px;
+    padding-left: 20px;
+}
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+.navbar-nav li a
+{
+    color: #fff !important;
+    font-weight: 400;
+    float: right;
+    text-align: left;
+}
+.fa-bars
+{
+    color: #fff;
+    font-size: 30px !important;
+}
+.navbar-toggler
+{
+    outline: 0 !important;
+}
+
+/* -------Header section------- */
+#banner
+{
+    background-image: linear-gradient(to right, #252A37,  #252A37); 
+    color: #fff;
+    padding-top: 5%;
+}
+.header-tittle
+{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+.lg-btn
+{
+    margin: auto 0 20px 0;
+}
+.lg-btn img
+{
+    width: 30px;
+    margin: auto;
+}
+.img-fluid
+{
+    margin-top: 100px;
+    height: 200px;
+    width: 200px;
+}
+.bottom-img
+{
+    width: 100%;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #e6e6e6;
+    padding: 0;
+    margin:0;
+    
+}
+
+
+
+
+/* --------Footer Section--------- */
+
+#footer
+{
+    background-image: linear-gradient(to right, #252A37,  #252A37);
+    color: #fff; 
+}
+.footer-img
+{
+    width: 100%;
+}
+.footer-box
+{
+    padding: 0 0px 20px 0;
+}
+.footer-box img
+{
+    width: 120px;
+    margin-bottom: 20px;
+}
+.footer-box .fa
+{
+    margin-right: 8px;
+    margin-left: 8px;
+    font-size: 15px;
+    height: 40px;
+    width: fit-content;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 2px;
+    background-image: linear-gradient(to right, #252A37,  #252A37);
+} 
+.footer-box .form-control
+{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 25px;
+    max-width: 250px;
+}
+.footer-box .btn-primary
+{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 30px;
+    background-image: linear-gradient(to right, #575757,  #252A37);
+}
+hr
+{
+    background-color: #fff;
+}
+.copyright
+{
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    text-align: center;
+}
